@@ -64,53 +64,27 @@ The schedule for the different curricula are listed here:
 {% elsif site.curriculum == "dc-ecology" %}
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Monday, February 26</h3>
     <table class="table table-striped">
-      <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a> </td> </tr>
+      <tr> <td>1:00 pm - 1:10 pm</td>  <td>Introductions and Logistics</td> </tr>
+      <tr> <td>1:10 pm - 2:10 pm</td>  <td>Short Introduction R; Starting with Data</td> </tr>
+      <tr> <td>2:20 pm - 2:30 pm</td>  <td>Break</td> </tr>
+      <tr> <td>2:30 pm - 3:55 pm</td>  <td>Manipulating, Analyzing, and Exporting Data</td> </tr>
+      <tr> <td>3:55 pm</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Tuesday, February 27</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
-      </tr>
+      <tr> <td>1:00 pm - 1:10 pm</td>  <td>Finish up Manipulating, Analyzing, and Exporting Data</td> </tr>
+      <tr> <td>1:10 pm - 2:15 pm</td>  <td>Data Visualization</td> </tr>
+      <tr> <td>2:15 pm - 2:25 pm</td>  <td>Break</td> </tr>
+      <tr> <td>2:25 pm - 3:50 pm</td>  <td>SQL Databases and R</td> </tr>
+      <tr> <td>3:50 pm</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>3:55 pm</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></td> </tr>
     </table>
-  </div>
+  </div>  
 </div>
 
 {% elsif site.curriculum == "dc-genomics" %}
