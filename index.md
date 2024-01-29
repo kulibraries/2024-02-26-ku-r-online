@@ -76,6 +76,8 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2 id="registration">Registration</h2>
+<p> This is an online workshop for learners at institutions affiliated with <a href="https://osf.io/7gb5p/" target="_blank">AIMS: Aquatic Intermittency effects on Microbiomes in Streams.</a> Registration is free and required and seats are limited. <a href="https://ku.libwizard.com/f/2024-02-26-ku-r-online" target="_blank">Register for this workshop</a> by February 21, 2024.</p>
 
 <h2 id="general">General Information</h2>
 
